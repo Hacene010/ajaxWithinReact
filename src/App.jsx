@@ -1,9 +1,11 @@
-import SampleComponent from './components/SampleComponent';
+import QuoteCard from './components/QuoteCard';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <SampleComponent />
+      <h1>Ajax challenge within react</h1>
+      <QuoteCard />
     </div>
   );
 }
